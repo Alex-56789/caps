@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex Wanyoike - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#" class="brand">
+        Alex Wanyoike <span class="dot"></span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact" class="btn">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <span class="pill">👋 Hi, I’m Alex</span>
+        <h1>Creative <span class="highlight">Web Designer</span> & Developer</h1>
+        <p class="lede">
+          I build beautiful, responsive websites using clean HTML & CSS.
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn">Get in Touch</a>
+          <a href="#gallery" class="pill">View Work →</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="images/profile.jpg" alt="Alex Wanyoike portrait">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container about">
+      <figure class="about-figure">
+        <img src="images/about.jpg" alt="Working at desk">
+      </figure>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p class="blurb">
+          I’m Alex, a passionate front-end developer who loves designing
+          elegant, responsive, and accessible websites. My focus is on
+          clean code, simple UI, and great user experiences.
+        </p>
+        <p>
+          When I’m not coding, I enjoy exploring design trends, photography,
+          and learning new creative tools.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <p class="section-sub">
+        A quick overview of my skills, education, and experience.
+      </p>
+      <div class="resume">
+
+        <div class="card">
+          <h3>Skills</h3>
+          <div class="skills">
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS3</span>
+            <span class="chip">Responsive Design</span>
+            <span class="chip">UI/UX</span>
+            <span class="chip">Git</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Education</h3>
+          <p><strong>BSc in Computer Science</strong><br>
+          University of Nairobi, 2020 – 2024</p>
+        </div>
+
+        <div class="card">
+          <h3>Experience</h3>
+          <p><strong>Front-End Developer (Intern)</strong><br>
+          Nairobi Tech Hub, 2023</p>
+          <p>Contributed to responsive website projects and optimized
+          user interfaces for better performance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery">
+    <div class="container">
+      <h2>Gallery</h2>
+      <p class="section-sub">
+        Some of my latest work and personal projects.
+      </p>
+      <div class="gallery">
+        <div class="g-card">
+          <img src="images/project1.jpg" alt="Project 1">
+          <p class="g-cap">Portfolio Website</p>
+        </div>
+        <div class="g-card">
+          <img src="images/project2.jpg" alt="Project 2">
+          <p class="g-cap">Responsive Blog Layout</p>
+        </div>
+        <div class="g-card">
+          <img src="images/project3.jpg" alt="Project 3">
+          <p class="g-cap">E-commerce Concept</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p class="section-sub">
+        Interested in working together? Let’s connect.
+      </p>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Contact Info</h3>
+          <ul class="contact-list">
+            <li>Email: <a href="mailto:alex@example.com">alex@example.com</a></li>
+            <li>Phone: <a href="tel:+254700000000">+254 700 000 000</a></li>
+            <li>Location: Nairobi, Kenya</li>
+          </ul>
+        </div>
+        <div class="contact-card">
+          <h3>Social</h3>
+          <ul class="contact-list">
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">Dribbble</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Alex Wanyoike. All rights reserved.</p>
+    <span class="sm">Built with ❤️ using HTML & CSS only</span>
+  </footer>
+
+</body>
+</html>
